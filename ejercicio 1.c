@@ -1,4 +1,7 @@
 #include<stdio.h>
+/*Desarrollar un algoritmo que introduzca la fecha con formato DDMMAAAA como un
+entero de 8 dígitos y emita por pantalla su edad (aproximada). Ej. Se ingresa
+12071973, mostrar: La persona tiene 50 años.*/
 
 int main (void)
 {
