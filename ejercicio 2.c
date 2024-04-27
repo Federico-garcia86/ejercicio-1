@@ -20,11 +20,11 @@ pantalla todas las opciones de forma adecuada.*/
 int main(void)
 {
     float precio, total;
-    printf("\t\t\tEjercicio 2\n");
+    printf("\t\t\tEjercicio 2\a\n");
     printf("Ingresar el precio del producto:");
     scanf("%f",&precio);
     total=precio-(precio/10);
-    printf("\nPlan 1: 100%% al contado. Se hace el 10%% de descuento : $%.2f\n ", total);
+    printf("\n\aPlan 1: 100%% al contado. Se hace el 10%% de descuento : $%.2f\n ", total);
     total=precio+(precio/10);
     printf("\nPlan 2: 50%% al contado de $%.2f y el resto en 2 cuotas iguales de $%.2f ",total/2,total/4);
     printf("\nEl precio publicado se incrementa en un 10%% con un total de $%.2f\n",total);
