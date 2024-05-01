@@ -1,0 +1,3 @@
+Tres personas invierten dinero para fundar una empresa (no necesariamente en
+partes iguales). Se pide desarrollar un algoritmo que calcule que porcentaje invirtió
+cada una
